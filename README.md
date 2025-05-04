@@ -83,6 +83,6 @@ Build command: npm run build
 
 Publish directory: dist
 
-Simply open https://atharvaharane.netlify.app and click on Share -> Publish.
+Simply open https://atharvaharane.netlify.app
 
 
