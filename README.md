@@ -1,18 +1,12 @@
-# Welcome to your Lovable project
+# Welcome to Portfolio Website project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/68be569a-3847-463c-b5bc-56d0bfafaac1
+**URL**: https://atharvaharane.netlify.app
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/68be569a-3847-463c-b5bc-56d0bfafaac1) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -62,12 +56,33 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/68be569a-3847-463c-b5bc-56d0bfafaac1) and click on Share -> Publish.
+🚀 Deployment Instructions
+✅ Deploying to Netlify
+Build the project:
 
-## Can I connect a custom domain to my Lovable project?
+bash
+Copy
+Edit
+npm install
+npm run build
+Login to Netlify:
 
-Yes, you can!
+Go to https://netlify.com and log in/sign up.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deploy manually:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Click "Add new site" → "Deploy manually".
+
+Upload the contents of the dist/ folder (after running npm run build).
+
+(Optional) Connect GitHub Repo:
+
+In Netlify, choose "Import from Git", connect your GitHub repo, and set:
+
+Build command: npm run build
+
+Publish directory: dist
+
+Simply open https://atharvaharane.netlify.app and click on Share -> Publish.
+
+
